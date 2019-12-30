@@ -19,8 +19,12 @@ body {
     padding: 20px;
 }
 #about-me {
+    text-align: center;
     padding: 15px;
     font-size: 14px;
+    word-wrap: break-word;
+    margin: auto;
+    width: 500px;
 }
 #referal-list {
     height: 300px;    
