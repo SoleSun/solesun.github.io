@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#intro-banner {
+    height: 60vh;
+    min-height: 500px;
+    max-height: 1000px;
+    padding-top: 120px;
+    text-align: center;
+}
+#name {
+    margin: auto;
+    font-size: 32px;
+    color: #63707e;
+    padding: 20px;
+}
+#about-me {
+    padding: 15px;
+    font-size: 14px;
+}
+#referal-list {
+    height: 300px;    
+    color: #63707e;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
