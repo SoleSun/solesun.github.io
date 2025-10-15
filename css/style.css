@@ -2,33 +2,68 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Calibri', sans-serif;
+    padding-top: 60px; 
 }
+
 #intro-banner {
-    height: 60vh;
-    min-height: 500px;
-    max-height: 1000px;
-    padding-top: 120px;
+    padding-top: 40px;
     text-align: center;
 }
+
+/* Container for name and referral list */
+.header-row {
+  position: fixed;        /* Keeps it visible as you scroll */
+  top: 0;                 /* Pins it to the top of the page */
+  left: 0;
+  right: 0;               /* Makes it full width */
+  z-index: 1000;          /* Keeps it above other content */
+
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centered content */
+  gap: 25%;
+
+  background-color: white; /* Visible box background */
+  border-bottom: 1px solid #ddd; /* Subtle divider line */
+  padding: 12px 24px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional shadow */
+}
+
 #name {
-    margin: auto;
-    font-size: 32px;
+    font-size: 24px;
     color: #63707e;
-    padding: 20px;
+    order: 1;
 }
+
+#referal-list {
+    text-align: left;
+    color: #63707e;
+    font-size: 14px;
+    order: 2;
+}
+
+#photo-of-me {
+    width: 15%;
+    height: 15%;
+    order: 2;
+    align-items:center;
+    display:flex;
+    justify-content: center;    
+    margin: auto;
+    margin-top: 20px;
+}   
+
 #about-me {
-    text-align: center;
-    padding: 15px;
+    text-align: left;
     font-size: 14px;
     word-wrap: break-word;
+    max-width: 600px;
+    line-height: 1.5;
+    justify-content: center;    
     margin: auto;
-    width: 500px;
-}
-#referal-list {
-    height: 300px;    
-    color: #63707e;
-    font-size: 14px;
-    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    order: 1;
 }
